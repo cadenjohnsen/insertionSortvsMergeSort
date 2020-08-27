@@ -52,6 +52,7 @@ def readData():
 		for line in data:	# loops through each line
 			words = list(map(int, line.split()))	# converts chars into ints and puts into array
 			intsum = words.pop(0)	# removes the first number giving the length of the array
+			end = len(words)
 
 			mergesort(words)		# calling the function that sorts each group
 			writeOutputFile(words, end)

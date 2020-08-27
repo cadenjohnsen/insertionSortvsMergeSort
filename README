@@ -1,5 +1,5 @@
 The programs in this folder include:
-A insertSort.py program that will sort a given data.txt file using the insertion sort method.
+An insertSort.py program that will sort a given data.txt file using the insertion sort method.
 A mergeSort.py program that will sort a given data.txt file using the merge sort method.
 An insertTime.py program that will create and sort a given array of size n using the insert sort method.
 A mergeTime.py program that will create and sort a given array of size n using the merge sort method.

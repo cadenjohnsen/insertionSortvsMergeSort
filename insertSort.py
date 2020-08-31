@@ -34,7 +34,6 @@ def readData():
 		for line in data:	# loops through each line
 			words = list(map(int, line.split()))	# converts chars into ints and put into array
 			intsum = words.pop(0)	# removes the first number which gives the length of the array
-
 			start = 0			# initialize start to 0
 			if (intsum % 2 == 0):		# checks if the total number of variables is even
 				mid = intsum / 2	# gets the midpoint of the line
